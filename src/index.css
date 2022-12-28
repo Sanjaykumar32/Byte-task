@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.setLoder.MuiBox-root.css-k008qs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+}
+table, th, td {
+  border:0.5px solid black;
+  margin-top: 5px;
+  padding: 8px 15px;
+  
+ 
+}
+table{
+  width: 100%;
+}
+.btn{
+  background: rgb(137, 245, 94);
+  border-radius: 6px;
+  padding: 5px 20px;
+  cursor: pointer;
+ 
+}
+.btnd{
+  background-color: rgb(251, 74, 74);
+  border-radius: 6px;
+  padding: 5px 20px;
+  cursor: pointer;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.log{
+  cursor: pointer;
+}
+.btn:hover{
+  color: white;
+  pointer-events: fill;
+}
+.btnd:hover{
+  color: white;
+}
+.img{
+  height: 50px;
+  width: 50px;
+}
+.page{
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+}
+.user{
+  font-size: 25px;
+  font-weight: 700;
 }
